@@ -9,4 +9,4 @@ I want to learn Front-End Development in **RSSchool!**
 *Nothing yet…*
 
 ## Education and courses:
-self-education
+*self-education*
