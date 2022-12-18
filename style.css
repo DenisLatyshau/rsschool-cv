@@ -1,1 +1,49 @@
-.test
+html {
+  font-size: 62.5%;
+}
+
+ul * {
+  list-style: none;
+  list-style-position: outside;
+}
+
+.header__container {
+  display: grid;
+  padding: 0 5rem;
+  grid-template-columns: 1fr 1fr;
+  height: 20rem;
+  background-color: gray;
+}
+
+.header__text {
+  place-self: center;
+  font-size: 4rem
+}
+
+.header__foto {
+  width: 15rem;
+  border-radius: 50%;
+  align-self: center;
+  justify-self: right;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(20rem, 40rem));
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: center;
+}
+
+a {
+  display: block;
+}
+.footer {
+  padding: 5rem 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}

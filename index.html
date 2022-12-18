@@ -4,11 +4,79 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
 <body>
-  <div class="test">
-    test
-  </div>
+
+
+  <header class="header">
+    <div class="header__container">
+      <h1 class ="header__text">Denis Latyshau</h1>
+      <img src="foto.jpg" alt="foto" class="header__foto">
+    </div>
+  </header>
+  <hr>
+  <main class="main">
+    <div class="main__container">
+      <section class="about">
+        <h2>About me</h2>
+        <p class="about__text">My name is Denis Latyshau. I'm 40 years old. I'm a cheef economist in retail. Almost all my "working life" I worked as chef ecomomist. But I decided to change my life and become a programmer. I am learning Javascript and want to become full stack developer.</p>
+      </section>
+      <section class="contacts">
+        <h2>Contacts</h2>
+          <ul>
+            <li>tel: +7(981)723-97-50</li>
+            <li>denislatyshau@yandex.ru</li>
+            <li>https://www.linkedin.com/in/denis-latyshau-320673258/</li>
+          </ul>
+      </section>
+      <section class="education">
+        <h2>Education</h2>
+          <ul>
+            <li>Polotsk State University</li>
+            <li>Faculty: economics and management</li>
+            <li>Years: 1999-2004</li>
+          </ul>
+      </section>
+      <section class="skills">
+        <h2>My skills</h2>
+        <ol>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Figma</li>
+          <li>SASS</li>
+          <li>Bootstrap</li>
+        </ol>
+      </section>
+      <section class="code">
+        <h2>Code example</h2>
+        <p><code><pre>function showName(firstName, lastName) { 
+          let nameIntro = "Your name is ";
+      
+          function makeFullName() {
+              return nameIntro + firstName + " " + lastName;
+          }
+      
+          return makeFullName();
+      }
+      
+      showName("Michael", "Jackson")</pre></code></p>
+      </section>
+      <section class="projects">
+        <h2>My projects </h2>
+        <ul>
+          <li>https://github.com/DenisLatyshau/Project-baloons</li>
+          <li>https://github.com/DenisLatyshau/Project-store-game</li>
+        </ul>
+      </section>
+      
+    </div>
+  </main>
+  <footer class="footer">
+    <a href="https://github.com/DenisLatyshau">My GitHub</a>
+    <p>2022</p>
+  </footer>
 </body>
 </html>
